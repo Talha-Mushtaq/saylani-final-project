@@ -1,0 +1,181 @@
+ /* ------------------- Navbar ---------------------- */
+.Navb{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: linear-gradient(to left ,rgb(32, 25, 25),rgb(43, 30, 30));
+    /* background-image: linear-gradient(to top,rgb(10, 35, 114),rgb(27, 70, 212),rgb(117, 142, 223));  */
+color: rgb(233, 225, 225);
+}
+.Ecom{
+    display:inline;
+    color:white;
+    font-family: cursive;
+    font-size:150%; 
+}
+@media screen and (max-width: 812px) {
+    .Ecom{
+        font-size:110%; 
+    }
+  }
+  @media screen and (max-width: 588px) {
+    .Ecom{
+        display: none;
+    }
+  }
+
+  
+.Nav{
+color:white;
+font-size: 110%;
+font-weight:initial;
+font-family:sans-serif;
+float: right;  
+margin-right: 4%; 
+}
+.Nav:hover{
+
+    /* border-bottom: 2px solid rgb(47, 255, 57); */
+    text-decoration: none;
+    color: rgb(47, 255, 57);
+}
+ /* ------------------- Slider ---------------------- */
+.slider{
+   color: red;
+width: 100%;
+height: 450px;
+}
+ /* ------------------ Footer ---------------------- */
+.Footer{
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(32, 25, 25);
+
+
+    /* clip-path: polygon(0% 0% , 100% 30% , 100% 100%,0% 100%)  */
+}
+.FooterHeading{
+    text-align: center;
+    padding-top: 1%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 110%;
+    color: white;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.FooterDetail{
+    color: white;
+    padding-top: 1%;
+    font-size: 100%;
+    letter-spacing: 1px;
+    line-height: 35px;
+    font-family: sans-serif;
+    /* text-align: center; */
+}
+
+.footer_ul li:hover{
+color: rgb(47, 255, 57);
+cursor: pointer;
+}
+.FooterRight{
+    /* text-align: center; */
+    text-align: center;
+    color: white;
+    font-size: 80%;
+}
+
+ /* ------------------ Admin Login ---------------------- */
+
+.login_layout{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#login_Home_icon{
+    color:white;
+    font-size: 150%;
+    color: rgb(134, 134, 238);
+}
+#login_Home_icon:hover{
+    color: rgb(47, 255, 57);
+}
+ /* ------------------ Admin Add ---------------------- */
+.Admin_layout{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .textarea{
+     background-color:whitesmoke;
+    width: 100%;
+    height: 120px;
+    border: none;
+    border-bottom:1px solid rgb(53, 46, 46);
+}
+.takeImage{
+    border: 1px solid rgb(34, 34, 44);
+    width: 30%;
+    /* height: 5%; */
+    float: right;
+    margin: 0px;
+}
+ /* .Image{ 
+     width: 100%;
+    height: 100%; 
+    
+ }  */
+ /* ------------------ Admin Show All ---------------------- */
+
+.Admin_Cards{
+background-color: rgb(121, 117, 117);
+}
+.Admin_Cards:hover{
+    background-color: red
+}
+.ShowCard:hover{
+    background-color: red;
+}
+/* ------------------ Admin Detail ---------------------- */
+ .Admin_detail{
+     margin-top: 3%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+/* ------------------------ Home -------------------------- */
+.cards:hover{
+/* box-shadow: 5px 5px 15px 10px rgb(121, 117, 117); */
+/* border-radius: 5px; */
+transition: all .45s ease-in-out;
+box-shadow: 5px 10px 15px 7px rgb(121, 117, 117);
+}
+
+
+/* ------------------- cards---------------------------- */
+
+#iconDelete:hover{
+    color:rgb(94, 94, 231);
+    /* background-color: rgb(112, 107, 107);
+    border-radius: 50%; */
+    cursor: pointer;
+}
+#iconAdd:hover{
+    color:rgb(94, 94, 231);    
+    /* background-color: rgb(112, 107, 107);
+    border-radius: 50%; */
+    cursor: pointer;
+}
+#iconMinus:hover{
+    color:rgb(94, 94, 231);
+    /* background-color: rgb(112, 107, 107);
+    border-radius: 50%; */
+    cursor: pointer;   
+}
+/* --------------- Admin Panel --------------- */
+.bgImage{
+    background-image: url("http://www.pizzaods.com/images/admin-dashboard.png");
+}
+  
